@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0466A3195AB653004D252B /* CalculatorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0466A2195AB653004D252B /* CalculatorCore.swift */; };
+		5D0466A5195B14CD004D252B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0466A4195B14CD004D252B /* Util.swift */; };
+		5D08DEF5195A6FEF007DD995 /* BigCombtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08DEF4195A6FEF007DD995 /* BigCombtn.swift */; };
+		5D7D32B319592F3F00BA9368 /* Numbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D32B219592F3F00BA9368 /* Numbtn.swift */; };
+		5D7D32B619594CBD00BA9368 /* Btnenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D32B519594CBD00BA9368 /* Btnenum.swift */; };
 		5DD104281951B9B6006A6C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD104271951B9B6006A6C5D /* AppDelegate.swift */; };
 		5DD1042A1951B9B6006A6C5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD104291951B9B6006A6C5D /* Images.xcassets */; };
 		5DD104361951B9B6006A6C5D /* MySwiftTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD104351951B9B6006A6C5D /* MySwiftTableTests.swift */; };
+		5DD104401951B9D1006A6C5D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1043F1951B9D1006A6C5D /* TableViewController.swift */; };
+		5DD1044219532255006A6C5D /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1044119532255006A6C5D /* CalculatorViewController.swift */; };
+		5DD1044419532F32006A6C5D /* Calbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1044319532F32006A6C5D /* Calbtn.swift */; };
+		5DD1044619551BAA006A6C5D /* CalbtnFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1044519551BAA006A6C5D /* CalbtnFactory.swift */; };
+		5DD1044819552A91006A6C5D /* Combtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1044719552A91006A6C5D /* Combtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D0466A2195AB653004D252B /* CalculatorCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorCore.swift; sourceTree = "<group>"; };
+		5D0466A4195B14CD004D252B /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		5D08DEF4195A6FEF007DD995 /* BigCombtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigCombtn.swift; sourceTree = "<group>"; };
+		5D7D32B219592F3F00BA9368 /* Numbtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbtn.swift; sourceTree = "<group>"; };
+		5D7D32B4195949F800BA9368 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
+		5D7D32B519594CBD00BA9368 /* Btnenum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Btnenum.swift; sourceTree = "<group>"; };
 		5DD104221951B9B6006A6C5D /* MySwiftTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD104261951B9B6006A6C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DD104271951B9B6006A6C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +46,11 @@
 		5DD1042F1951B9B6006A6C5D /* MySwiftTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD104341951B9B6006A6C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DD104351951B9B6006A6C5D /* MySwiftTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftTableTests.swift; sourceTree = "<group>"; };
+		5DD1043F1951B9D1006A6C5D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5DD1044119532255006A6C5D /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		5DD1044319532F32006A6C5D /* Calbtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calbtn.swift; sourceTree = "<group>"; };
+		5DD1044519551BAA006A6C5D /* CalbtnFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalbtnFactory.swift; sourceTree = "<group>"; };
+		5DD1044719552A91006A6C5D /* Combtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +95,17 @@
 				5DD104271951B9B6006A6C5D /* AppDelegate.swift */,
 				5DD104291951B9B6006A6C5D /* Images.xcassets */,
 				5DD104251951B9B6006A6C5D /* Supporting Files */,
+				5DD1043F1951B9D1006A6C5D /* TableViewController.swift */,
+				5DD1044119532255006A6C5D /* CalculatorViewController.swift */,
+				5D0466A4195B14CD004D252B /* Util.swift */,
+				5D0466A2195AB653004D252B /* CalculatorCore.swift */,
+				5DD1044519551BAA006A6C5D /* CalbtnFactory.swift */,
+				5D7D32B4195949F800BA9368 /* test.playground */,
+				5DD1044319532F32006A6C5D /* Calbtn.swift */,
+				5DD1044719552A91006A6C5D /* Combtn.swift */,
+				5D08DEF4195A6FEF007DD995 /* BigCombtn.swift */,
+				5D7D32B219592F3F00BA9368 /* Numbtn.swift */,
+				5D7D32B519594CBD00BA9368 /* Btnenum.swift */,
 			);
 			path = MySwiftTable;
 			sourceTree = "<group>";
@@ -200,7 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0466A5195B14CD004D252B /* Util.swift in Sources */,
+				5DD1044619551BAA006A6C5D /* CalbtnFactory.swift in Sources */,
+				5D7D32B619594CBD00BA9368 /* Btnenum.swift in Sources */,
 				5DD104281951B9B6006A6C5D /* AppDelegate.swift in Sources */,
+				5DD1044819552A91006A6C5D /* Combtn.swift in Sources */,
+				5D0466A3195AB653004D252B /* CalculatorCore.swift in Sources */,
+				5DD1044219532255006A6C5D /* CalculatorViewController.swift in Sources */,
+				5DD104401951B9D1006A6C5D /* TableViewController.swift in Sources */,
+				5D08DEF5195A6FEF007DD995 /* BigCombtn.swift in Sources */,
+				5D7D32B319592F3F00BA9368 /* Numbtn.swift in Sources */,
+				5DD1044419532F32006A6C5D /* Calbtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MySwiftTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -317,6 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MySwiftTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -377,6 +421,7 @@
 				5DD1043B1951B9B6006A6C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD1043C1951B9B6006A6C5D /* Build configuration list for PBXNativeTarget "MySwiftTableTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +430,7 @@
 				5DD1043E1951B9B6006A6C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
