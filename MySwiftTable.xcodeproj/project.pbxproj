@@ -12,6 +12,7 @@
 		5D08DEF5195A6FEF007DD995 /* BigCombtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D08DEF4195A6FEF007DD995 /* BigCombtn.swift */; };
 		5D7D32B319592F3F00BA9368 /* Numbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D32B219592F3F00BA9368 /* Numbtn.swift */; };
 		5D7D32B619594CBD00BA9368 /* Btnenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D32B519594CBD00BA9368 /* Btnenum.swift */; };
+		5D99DCC8197FB4D90007CCAD /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99DCC7197FB4D90007CCAD /* CoreGraphicsViewController.swift */; };
 		5DD104281951B9B6006A6C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD104271951B9B6006A6C5D /* AppDelegate.swift */; };
 		5DD1042A1951B9B6006A6C5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD104291951B9B6006A6C5D /* Images.xcassets */; };
 		5DD104361951B9B6006A6C5D /* MySwiftTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD104351951B9B6006A6C5D /* MySwiftTableTests.swift */; };
@@ -39,6 +40,7 @@
 		5D7D32B219592F3F00BA9368 /* Numbtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbtn.swift; sourceTree = "<group>"; };
 		5D7D32B4195949F800BA9368 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		5D7D32B519594CBD00BA9368 /* Btnenum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Btnenum.swift; sourceTree = "<group>"; };
+		5D99DCC7197FB4D90007CCAD /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
 		5DD104221951B9B6006A6C5D /* MySwiftTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD104261951B9B6006A6C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DD104271951B9B6006A6C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D99DCC5197FB4270007CCAD /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5DD1044119532255006A6C5D /* CalculatorViewController.swift */,
+				5D0466A2195AB653004D252B /* CalculatorCore.swift */,
+				5DD1044519551BAA006A6C5D /* CalbtnFactory.swift */,
+				5DD1044319532F32006A6C5D /* Calbtn.swift */,
+				5DD1044719552A91006A6C5D /* Combtn.swift */,
+				5D08DEF4195A6FEF007DD995 /* BigCombtn.swift */,
+				5D7D32B219592F3F00BA9368 /* Numbtn.swift */,
+				5D7D32B519594CBD00BA9368 /* Btnenum.swift */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		5D99DCC6197FB43F0007CCAD /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5D99DCC7197FB4D90007CCAD /* CoreGraphicsViewController.swift */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
 		5DD104191951B9B6006A6C5D = {
 			isa = PBXGroup;
 			children = (
@@ -92,20 +117,14 @@
 		5DD104241951B9B6006A6C5D /* MySwiftTable */ = {
 			isa = PBXGroup;
 			children = (
+				5D99DCC6197FB43F0007CCAD /* CoreGraphics */,
 				5DD104271951B9B6006A6C5D /* AppDelegate.swift */,
 				5DD104291951B9B6006A6C5D /* Images.xcassets */,
 				5DD104251951B9B6006A6C5D /* Supporting Files */,
 				5DD1043F1951B9D1006A6C5D /* TableViewController.swift */,
-				5DD1044119532255006A6C5D /* CalculatorViewController.swift */,
+				5D99DCC5197FB4270007CCAD /* Calculator */,
 				5D0466A4195B14CD004D252B /* Util.swift */,
-				5D0466A2195AB653004D252B /* CalculatorCore.swift */,
-				5DD1044519551BAA006A6C5D /* CalbtnFactory.swift */,
 				5D7D32B4195949F800BA9368 /* test.playground */,
-				5DD1044319532F32006A6C5D /* Calbtn.swift */,
-				5DD1044719552A91006A6C5D /* Combtn.swift */,
-				5D08DEF4195A6FEF007DD995 /* BigCombtn.swift */,
-				5D7D32B219592F3F00BA9368 /* Numbtn.swift */,
-				5D7D32B519594CBD00BA9368 /* Btnenum.swift */,
 			);
 			path = MySwiftTable;
 			sourceTree = "<group>";
@@ -236,6 +255,7 @@
 				5DD1044619551BAA006A6C5D /* CalbtnFactory.swift in Sources */,
 				5D7D32B619594CBD00BA9368 /* Btnenum.swift in Sources */,
 				5DD104281951B9B6006A6C5D /* AppDelegate.swift in Sources */,
+				5D99DCC8197FB4D90007CCAD /* CoreGraphicsViewController.swift in Sources */,
 				5DD1044819552A91006A6C5D /* Combtn.swift in Sources */,
 				5D0466A3195AB653004D252B /* CalculatorCore.swift in Sources */,
 				5DD1044219532255006A6C5D /* CalculatorViewController.swift in Sources */,
