@@ -20,7 +20,7 @@ import UIKit
 class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
-    var items: String[] = ["计算器"]
+    var items: [String] = ["计算器","CoreGraphics"]
 
     var tableView: UITableView!
     var viewMoveBlock: UIView! = UIView()
@@ -73,10 +73,16 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         case 0:
             self.gotoCalculator()
         default:
+            self.gotoCGView()
            return
         }
         
         
+    }
+    func gotoCGView(){
+        var cgCtrl:CoreGraphicsViewController! = CoreGraphicsViewController(nibName: nil, bundle: nil)
+        cgCtrl.title="CoreGraphics练习"
+        self.navigationController.pushViewController(cgCtrl, animated: true)
     }
     func gotoCalculator(){
         

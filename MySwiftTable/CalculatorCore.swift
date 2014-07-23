@@ -86,7 +86,8 @@ class CalculatorCore{
             }
         }
         self.clear()
-        return formatFloat(String(result))
+        //这里的stringValue是由于String（）方法失败的替换方案
+        return formatFloat(result.bridgeToObjectiveC().stringValue)
     }
     func appendOperator(f:String){
         operatorList.append(String(f))
@@ -96,11 +97,12 @@ class CalculatorCore{
         if tempStrArray.count == 1{
             return s
         }else{
-            var n = countElements(String(tempStrArray[1]))
+            var n:Int = countElements(String(tempStrArray[1]))
             if n > 2{
                 n = 2
             }
-            var x = String(tempStrArray[1]).substringToIndex(n)
+            //这里也是swift的坑，int无法转换为String.Index
+            var x = String(tempStrArray[1]).bridgeToObjectiveC().substringToIndex(n)
             if x == "0" {
                 return String(tempStrArray[0])
             }

@@ -143,7 +143,7 @@ class CalculatorViewController: UIViewController,DateModifyDelegate{
         if(z>0){
             p = 1-z*0.05
         }
-        var size = 44*p
+        var size:CGFloat = CGFloat( 44*p)
         showText.font = UIFont(name: "HelveticaNeue-Thin",size: size)
 
     }
